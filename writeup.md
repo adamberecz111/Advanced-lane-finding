@@ -20,3 +20,7 @@ I made a histogram along the columns and checked where the activations are, and 
 The camera is on the front of the car, so the car position will be the middle of the picture and I found out the middle of the lane position from the lanes and calculated the difference. Calculating the curvature I used the equation in the lesson.
 
 final video: ./result_video.mp4
+
+### Discussion
+
+Like in the previous assignment I think the baked in parameters are the weakest part of the solution and I also didn't want to spend too much time finetuning the values and I believe that if I did, I would have gotten a better, cleaner image to work with and the line detection wouldn't have failed in some frames, so sanity check wouldn't be neccessary for this project, but ofcourse it is useful and probably needed in real life situations. As far as the used techniques go I just used the stuff in the lessons.
